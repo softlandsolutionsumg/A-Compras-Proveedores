@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Comercial_Solutions.Clases;
 using i3nRiqJSON;
+using System.Configuration;
 namespace Comercial_Solutions.Forms.Areas.Compras
 {
     public partial class frm_editarproveedor : Form
     {
         string datos_proveedor;
+        i3nRiqJson x = new i3nRiqJson();
 
         public frm_editarproveedor()
         {
@@ -21,12 +23,18 @@ namespace Comercial_Solutions.Forms.Areas.Compras
         }
         public void cargarproveedor()
         {
-            i3nRiqJson x2 = new i3nRiqJson();
+          
             string query = "select idtbm_proveedor,nombre_proveedor from tbm_acpro";
-            cmb_empleado.DataSource = ((x2.consulta_DataGridView(query)));
+            cmb_empleado.DataSource = ((x.consulta_DataGridView(query)));
             cmb_empleado.ValueMember = "idtbm_proveedor";
             cmb_empleado.DisplayMember = "nombre_proveedor";
+
+           
+
+          
         }
+
+       
         private void frm_editarproveedor_Load(object sender, EventArgs e)
         {
             cargarproveedor();
@@ -34,9 +42,9 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            i3nRiqJson x4 = new i3nRiqJson();
+           
             string query4 = "select idtbm_proveedor from tbm_acpro where nombre_proveedor='" + cmb_empleado.Text + "'";
-            System.Collections.ArrayList array = x4.consultar(query4);
+            System.Collections.ArrayList array = x.consultar(query4);
 
 
 
@@ -47,7 +55,7 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
             }
 
-            i3nRiqJson x = new i3nRiqJson();
+           
             string tabla = "tbm_acpro";
             Dictionary<string, string> dict = new Dictionary<string, string>();
             dict.Add("nombre_proveedor", txtnombre.Text);
@@ -77,9 +85,9 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            i3nRiqJson x4 = new i3nRiqJson();
+           
             string query4 = "select nombre_proveedor,telefono_proveedor,direccion_proveedor,tipo_acpro from tbm_acpro where nombre_proveedor='" + cmb_empleado.Text + "'";
-            System.Collections.ArrayList array = x4.consultar(query4);
+            System.Collections.ArrayList array = x.consultar(query4);
 
 
 
@@ -93,6 +101,17 @@ namespace Comercial_Solutions.Forms.Areas.Compras
                 // Console.WriteLine("VIENEN: "+dic["employee_name"]);
 
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

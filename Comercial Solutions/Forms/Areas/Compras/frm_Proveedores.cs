@@ -78,7 +78,7 @@ namespace Comercial_Solutions.Forms.Areas.Compras
         public void cargar()
         {
             i3nRiqJson x = new i3nRiqJson();
-            string query2 = "SELECT `nombre_proveedor`,`telefono_proveedor`,`direccion_proveedor`,`tipo_acpro` FROM `tbm_acpro` ";
+            string query2 = "SELECT `nombre_proveedor` as Nombre,`telefono_proveedor` as Telefono,`direccion_proveedor` as Direccion,`tipo_acpro`as Tipo FROM `tbm_acpro` ";
             dataGridView1.DataSource = ((x.consulta_DataGridView(query2)));
         }
         private void frm_Proveedores_Load(object sender, EventArgs e)
@@ -92,7 +92,8 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-
+            frm_elimarproveedor x = new frm_elimarproveedor();
+            x.Show();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -108,6 +109,12 @@ namespace Comercial_Solutions.Forms.Areas.Compras
            txttipoproveedor.Text = "";
                 
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            frm_editarproveedor x = new frm_editarproveedor();
+            x.Show();
         }
     }
 }

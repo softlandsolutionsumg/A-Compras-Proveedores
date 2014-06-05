@@ -52,6 +52,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Propp.cs" />
+    <Compile Include="Forms\Areas\Compras\frm_compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_compra.Designer.cs">
+      <DependentUpon>frm_compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_editarproductoproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_editarproductoproveedor.Designer.cs">
+      <DependentUpon>frm_editarproductoproveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Areas\Compras\frm_editarproveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,24 @@
     </Compile>
     <Compile Include="Forms\Areas\Compras\frm_elimarproveedor.Designer.cs">
       <DependentUpon>frm_elimarproveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_eliminarcompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_eliminarcompra.Designer.cs">
+      <DependentUpon>frm_eliminarcompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_eliminarproductoproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_eliminarproductoproveedor.Designer.cs">
+      <DependentUpon>frm_eliminarproductoproveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_productoproveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Areas\Compras\frm_productoproveedor.Designer.cs">
+      <DependentUpon>frm_productoproveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Areas\Compras\frm_Proveedores.cs">
       <SubType>Form</SubType>
@@ -120,11 +150,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Areas\Compras\frm_compra.resx">
+      <DependentUpon>frm_compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Compras\frm_editarproductoproveedor.resx">
+      <DependentUpon>frm_editarproductoproveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Compras\frm_editarproveedor.resx">
       <DependentUpon>frm_editarproveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Compras\frm_elimarproveedor.resx">
       <DependentUpon>frm_elimarproveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Compras\frm_eliminarcompra.resx">
+      <DependentUpon>frm_eliminarcompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Compras\frm_eliminarproductoproveedor.resx">
+      <DependentUpon>frm_eliminarproductoproveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Areas\Compras\frm_productoproveedor.resx">
+      <DependentUpon>frm_productoproveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Areas\Compras\frm_Proveedores.resx">
       <DependentUpon>frm_Proveedores.cs</DependentUpon>
@@ -181,12 +226,12 @@
     <Folder Include="Forms\Areas\RRHH\" />
     <Folder Include="Forms\Areas\Ventas\" />
     <Folder Include="Forms\Pruebas\" />
-    <Folder Include="Recursos\bmp\" />
-    <Folder Include="Recursos\dll\" />
-    <Folder Include="Recursos\ico\" />
-    <Folder Include="Recursos\jpg\" />
-    <Folder Include="Recursos\mp3\" />
-    <Folder Include="Recursos\png\" />
+    <Folder Include="Forms\Recursos\bmp\" />
+    <Folder Include="Forms\Recursos\dll\" />
+    <Folder Include="Forms\Recursos\ico\" />
+    <Folder Include="Forms\Recursos\jpg\" />
+    <Folder Include="Forms\Recursos\mp3\" />
+    <Folder Include="Forms\Recursos\png\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\305.GIF" />

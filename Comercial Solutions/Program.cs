@@ -21,8 +21,9 @@ namespace Comercial_Solutions
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frm_login());
-            //Application.Run(new frm_login());
-            Application.Run(new frm_editarproveedor());
+            Application.Run(new frm_login());
+            //Application.Run(new frm_compra());
+            //Application.Run(new frm_productoproveedor()); 
         }
     }
 }

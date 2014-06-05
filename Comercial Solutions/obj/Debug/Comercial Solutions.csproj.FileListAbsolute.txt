@@ -65,3 +65,8 @@ C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj
 C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial Solutions.csproj.GenerateResource.Cache
 C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_elimarproveedor.resources
 C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_editarproveedor.resources
+C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_productoproveedor.resources
+C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_eliminarproductoproveedor.resources
+C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_compra.resources
+C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_editarproductoproveedor.resources
+C:\Users\ototumax\Documents\GitHub\A-Compras-Proveedores\Comercial Solutions\obj\Debug\Comercial_Solutions.Forms.Areas.Compras.frm_eliminarcompra.resources
