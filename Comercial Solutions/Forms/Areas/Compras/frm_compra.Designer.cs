@@ -131,6 +131,7 @@
             this.pictureBox6.TabIndex = 102;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "1";
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label5
             // 
@@ -313,6 +314,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtcantidad);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_compra";
             this.Text = "frm_compra";
             this.Load += new System.EventHandler(this.frm_compra_Load);

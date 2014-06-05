@@ -21,5 +21,15 @@ namespace Comercial_Solutions.Forms.Areas.Compras
         {
 
         }
+
+        private void frm_eliminarcompra_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

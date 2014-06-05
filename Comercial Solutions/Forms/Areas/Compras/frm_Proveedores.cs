@@ -116,5 +116,10 @@ namespace Comercial_Solutions.Forms.Areas.Compras
             frm_editarproveedor x = new frm_editarproveedor();
             x.Show();
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

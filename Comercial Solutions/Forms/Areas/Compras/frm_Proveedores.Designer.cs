@@ -124,6 +124,7 @@
             this.pictureBox6.TabIndex = 87;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "1";
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // label5
             // 
@@ -221,6 +222,7 @@
             this.Controls.Add(this.txtdireccion);
             this.Controls.Add(this.txttelefono);
             this.Controls.Add(this.txtnombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_Proveedores";
             this.Text = "frm_Proveedores";
             this.Load += new System.EventHandler(this.frm_Proveedores_Load);

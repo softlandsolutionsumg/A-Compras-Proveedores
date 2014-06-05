@@ -201,7 +201,10 @@
             this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.cmb_empleado);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_editarproveedor";
+            this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_editarproveedor";
             this.Load += new System.EventHandler(this.frm_editarproveedor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

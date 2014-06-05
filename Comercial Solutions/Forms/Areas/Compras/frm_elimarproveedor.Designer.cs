@@ -131,7 +131,10 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cbm_empleado);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_elimarproveedor";
+            this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_elimarproveedor";
             this.Load += new System.EventHandler(this.frm_elimarproveedor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

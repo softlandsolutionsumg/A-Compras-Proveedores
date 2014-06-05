@@ -218,7 +218,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpcompra);
             this.Controls.Add(this.txtnombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frm_editarproductoproveedor";
+            this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_editarproductoproveedor";
             this.Load += new System.EventHandler(this.frm_editarproductoproveedor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

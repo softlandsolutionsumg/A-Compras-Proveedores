@@ -28,6 +28,7 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
         private void frm_compra_Load(object sender, EventArgs e)
         {
+            
             this.Size = new Size(X, Y);
             this.Location = new Point(250, 56);
             cargar();
@@ -264,6 +265,11 @@ namespace Comercial_Solutions.Forms.Areas.Compras
 
           );
 
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }
